@@ -22,7 +22,7 @@
             <tr>
                 <td>{{ persona.nombre }}</td>
                 <td>{{ persona.apellido }}</td>
-                <td>{{ persona.correo }}</td>
+                <td>{{ persona.correo }}</td>                
                 <td><a href="{% url 'editar_persona' persona.id %}">EDITAR</a> <a href="{% url 'eliminar_persona' persona.id %}">ELIMINAR</a></td>    
             </tr>
             {% endfor %}         
